@@ -8,11 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /*! Initialize Carousel */
 document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.carousel.carousel-slider');
+  var elems = document.querySelectorAll('.carousel');
   var instance = M.Carousel.init(elems, {
     fullWidth: true,
-    indicators: true,
-    padding: 50,
+    indicators: true
   });
 });
 
