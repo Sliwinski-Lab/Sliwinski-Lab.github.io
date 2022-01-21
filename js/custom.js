@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var instance = M.Carousel.init(elems, {
     fullWidth: true,
     indicators: true,
-    padding: 10,
+    padding: 50,
   });
 });
 
