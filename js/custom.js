@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.carousel.carousel-slider');
   var instance = M.Carousel.init(elems, {
     fullWidth: true,
-    indicators: true
+    indicators: true,
+    padding: 10,
   });
 });
 
